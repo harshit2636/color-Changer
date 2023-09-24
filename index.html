@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-Changer</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="box">
+    <div id="first"></div>
+    <div id="sec" style=background-color:yellow></div>
+    <div id="tri" style=background-color:skyblue></div>
+    <div id="four" style=background-color:lightgreen></div>
+    <div id="five" style=background-color:orange></div>
+    <div id="last" style=background-color:violet></div>
+</div>
+<script>
+    let f=document.querySelector("#first")
+    let s=document.querySelector("#sec")
+    let q=document.querySelector("#tri")
+    let w=document.querySelector("#four")
+    let e=document.querySelector("#five")
+    let r=document.querySelector("#last")
+    let g=document.querySelector("body")
+    // let g=document.querySelector()
+    f.addEventListener("click",function(){
+       
+        g.style.backgroundColor="red"
+
+    
+    })
+    s.addEventListener("click",function(){
+        g.style.backgroundColor="yellow"
+    })
+    q.addEventListener("click",function(){
+        g.style.backgroundColor="skyblue"
+    })
+    w.addEventListener("click",function(){
+        g.style.backgroundColor="lightgreen"
+    })
+    e.addEventListener("click",function(){
+        g.style.backgroundColor="orange"
+    })
+    r.addEventListener("click",function(){
+        g.style.backgroundColor="violet"
+    })
+
+</script>
+</body>
+</html>
